@@ -89,3 +89,7 @@ if (empty($TMUX))
 endif
 
 
+let g:floaterm_keymap_new = '<Leader>t'
+let g:floaterm_keymap_prev   = '<Leader>tp'
+let g:floaterm_keymap_hide = '<Leader>th'
+let g:floaterm_keymap_show = '<Leader>ts'

@@ -16,5 +16,6 @@ return require('packer').startup(function()
   use 'tpope/vim-fugitive'
   use 'fatih/vim-go'
   use 'pearofducks/ansible-vim'
+  use 'voldikss/vim-floaterm' 
 
 end)
