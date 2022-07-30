@@ -15,5 +15,6 @@ return require('packer').startup(function()
   use 'rakr/vim-one'
   use 'tpope/vim-fugitive'
   use 'fatih/vim-go'
+  use 'pearofducks/ansible-vim'
 
 end)

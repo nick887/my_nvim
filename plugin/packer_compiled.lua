@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/Users/txiao/.local/share/nvim/site/pack/packer/start/LeaderF",
     url = "https://github.com/Yggdroot/LeaderF"
   },
+  ["ansible-vim"] = {
+    loaded = true,
+    path = "/Users/txiao/.local/share/nvim/site/pack/packer/start/ansible-vim",
+    url = "https://github.com/pearofducks/ansible-vim"
+  },
   ["auto-pairs"] = {
     loaded = true,
     path = "/Users/txiao/.local/share/nvim/site/pack/packer/start/auto-pairs",
