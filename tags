@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$NVIM_TUI_ENABLE_TRUE_COLOR	init.vim	/^    let $NVIM_TUI_ENABLE_TRUE_COLOR=1$/;"	v
+<C-]>	init.vim	/^nmap <silent> <C-]> <Plug>(coc-definition)$/;"	m
+<C-f>	init.vim	/^nnoremap <C-f> :NERDTreeFind<CR>$/;"	m
+<C-n>	init.vim	/^nnoremap <C-n> :NERDTree<CR>$/;"	m
+<C-t>	init.vim	/^nnoremap <C-t> :NERDTreeToggle<CR>$/;"	m
+<S-TAB>	init.vim	/^inoremap <expr><S-TAB> pumvisible() ? "\\<C-p>" : "\\<C-h>"$/;"	m
+<TAB>	init.vim	/^inoremap <silent><expr> <TAB>$/;"	m
+<leader>n	init.vim	/^nnoremap <leader>n :NERDTreeFocus<CR>$/;"	m
+CheckBackspace	init.vim	/^function! CheckBackspace() abort$/;"	f
+g:NERDTreeExactMatchHighlightColor	init.vim	/^let g:NERDTreeExactMatchHighlightColor = {} " this line is needed to avoid error$/;"	v
+g:NERDTreeExactMatchHighlightColor	init.vim	/^let g:NERDTreeExactMatchHighlightColor['.gitignore'] = s:git_orange " sets the color for .gitignore files$/;"	v
+g:NERDTreeExtensionHighlightColor	init.vim	/^let g:NERDTreeExtensionHighlightColor = {} " this line is needed to avoid error$/;"	v
+g:NERDTreeExtensionHighlightColor	init.vim	/^let g:NERDTreeExtensionHighlightColor['css'] = s:blue " sets the color of css files to blue$/;"	v
+g:NERDTreeGitStatusShowIgnored	init.vim	/^let g:NERDTreeGitStatusShowIgnored = 1$/;"	v
+g:NERDTreeGitStatusUseNerdFonts	init.vim	/^let g:NERDTreeGitStatusUseNerdFonts = 1 $/;"	v
+g:NERDTreePatternMatchHighlightColor	init.vim	/^let g:NERDTreePatternMatchHighlightColor = {} " this line is needed to avoid error$/;"	v
+g:NERDTreePatternMatchHighlightColor	init.vim	/^let g:NERDTreePatternMatchHighlightColor['.*_spec\\.rb$'] = s:rspec_red " sets the color for files ending with _spec.rb$/;"	v
+g:WebDevIconsDefaultFileSymbolColor	init.vim	/^let g:WebDevIconsDefaultFileSymbolColor = s:blue " sets the color for files that did not match any rule$/;"	v
+g:WebDevIconsDefaultFolderSymbolColor	init.vim	/^let g:WebDevIconsDefaultFolderSymbolColor = s:blue" sets the color for folders that did not match any rule$/;"	v
+g:airline_theme	init.vim	/^let g:airline_theme='one'$/;"	v
+gi	init.vim	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+gr	init.vim	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
+gy	init.vim	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+if vim.api.nvim_call_function('has', {'nvim-0.5'}) ~	plugin/packer_compiled.lua	/^if vim.api.nvim_call_function('has', {'nvim-0.5'}) ~= 1 then$/;"	f
+local no_errors, error_msg 	plugin/packer_compiled.lua	/^local no_errors, error_msg = pcall(function()$/;"	f
+s:aqua	init.vim	/^let s:aqua =  "3AFFDB"$/;"	v
+s:beige	init.vim	/^let s:beige = "F5C06F"$/;"	v
+s:blue	init.vim	/^let s:blue = "689FB6"$/;"	v
+s:brown	init.vim	/^let s:brown = "905532"$/;"	v
+s:darkBlue	init.vim	/^let s:darkBlue = "44788E"$/;"	v
+s:darkOrange	init.vim	/^let s:darkOrange = "F16529"$/;"	v
+s:git_orange	init.vim	/^let s:git_orange = 'F54D27'$/;"	v
+s:green	init.vim	/^let s:green = "8FAA54"$/;"	v
+s:lightGreen	init.vim	/^let s:lightGreen = "31B53E"$/;"	v
+s:lightPurple	init.vim	/^let s:lightPurple = "834F79"$/;"	v
+s:orange	init.vim	/^let s:orange = "D4843E"$/;"	v
+s:pink	init.vim	/^let s:pink = "CB6F6F"$/;"	v
+s:purple	init.vim	/^let s:purple = "834F79"$/;"	v
+s:red	init.vim	/^let s:red = "AE403F"$/;"	v
+s:rspec_red	init.vim	/^let s:rspec_red = 'FE405F'$/;"	v
+s:salmon	init.vim	/^let s:salmon = "EE6E73"$/;"	v
+s:white	init.vim	/^let s:white = "FFFFFF"$/;"	v
+s:yellow	init.vim	/^let s:yellow = "F09F17"$/;"	v
+save_profiles	plugin/packer_compiled.lua	/^local function save_profiles(threshold)$/;"	f
+time 	plugin/packer_compiled.lua	/^    time = function(chunk, start) end$/;"	f
+time 	plugin/packer_compiled.lua	/^    time = function(chunk, start)$/;"	f
+try_loadstring	plugin/packer_compiled.lua	/^local function try_loadstring(s, component, name)$/;"	f
